@@ -1,7 +1,7 @@
 #navbar{
 
     flex-direction: column;
-    padding-top: 0.5 rem; /*yukaridan ve asagidan padding verme boyle*/
+    padding-top: 0.5 rem; /*yukaridan ve asagidan padding vermek icin*/
     padding-bottom: 0.5 rem;
     overflow: hidden;  /*ekranlarda mobilde tasmayi onluyor*/
     height: 70px;
