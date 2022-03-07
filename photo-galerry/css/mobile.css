@@ -1,0 +1,23 @@
+#navbar{
+
+    flex-direction: column;
+    padding-top: 0.5 rem; /*yukaridan ve asagidan padding verme boyle*/
+    padding-bottom: 0.5 rem;
+    overflow: hidden;  /*ekranlarda mobilde tasmayi onluyor*/
+    height: 70px;
+
+
+
+
+}
+
+#training.items{
+    flex-direction: column; /*dikey olarak cizer*/
+
+
+}
+
+
+#training.items.item{
+    width: 100%;
+}

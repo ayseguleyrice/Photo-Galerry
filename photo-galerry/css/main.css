@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+
+
+html{
+    font-family: "Open Sans, sans serif";
+}
+
+
+
+#navbar{
+    color: aliceblue;
+    display: flex; /*yanyana getirme kodu*/
+    justify-content: space-between;  /* en saga yanasmasini saglar*/
+    align-items: center;
+    padding: auto;
+    height: 70px;
+
+
+}
+
+#navbar ul{
+
+    display: flex;
+    list-style-type: none;
+}
+#navbar ul li a{ /*uzerine geldiginde demek hover demek*/
+    padding: 0.75rem;
+
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+#navbar ul li a:hover{
+    background-color: peru;
+    border-radius: 10px;
+
+
+
+}
+
+/*home*/
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        border-bottom: 1px solid salmon;
+    }
+
+#home img{
+
+    max-width: 100;
+    height: auto;
+    border-radius: 100;
+
+
+    
+}
+
+.name h2{
+
+    margin-bottom: 0.99rem;
+    background-color: blueviolet;
+
+}
+
+.name p{
+
+    opacity: 0.9;
+    font-style: italic;
+    
+
+
+
+}
+
+
+
+.a{
+    border-radius: 2px;
+    background-color: purple;
+    /* yazilari alttan ve ustten boslukli birakma*/padding:0.2rem 3rem; 
+    margin-bottom: 0.99rem;
+    margin-top: 5.25px;
+    border-radius: 7px; /*aralarinin acilmasini sagliyor*/
+    letter-spacing: 1px;
+}
+
+.a:hover{
+    color: antiquewhite;
+    background-color: peru;
+    
+}
+
+
+
+#training{
+    color: aliceblue;
+    padding: 1rem;
+}
+
+#training .items{
+
+    display:flex ; /*yanyana getirir*/
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+#training.items.item{
+width: 33%;
+text-align: center; /*ortalama yapar*/
+padding: 0.5rem;
+
+
+}
+#training.items.item:hover{
+    color: bisque;
+    opacity: 0.7;
+
+}
+#contact{
+    color: beige;
+    padding: 1rem;
+}
+
+#contact .contact-form{
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+
+}
+#contact .contact-form ul{
+    list-style-type: none; /*ul lerin yanindaki sira isaretini kaldiri */
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a{
+
+    padding: 1rem;
+    font-size: 2rem;
+}
+

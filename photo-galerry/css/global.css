@@ -1,0 +1,70 @@
+.text-center{
+    text-align: center;
+    background-color:darkorchid;
+}
+
+.heading-small{
+    font-size: small;
+}
+
+.heading-medium{
+    font-size: medium;
+}
+
+.heading-big{
+    font-size: large;
+}    
+
+
+
+/*colors*/
+.bg-purple{
+    background-color: blueviolet;
+}
+
+
+.bg-light-blue{
+    background-color:aqua;
+}
+
+/*container navbari containerin icine koy*/
+
+
+
+.container{
+
+    max-width: 1100 px;
+    margin: 0 auto;
+}
+
+.btn{
+    border-radius: 2px;
+    background-color: purple;
+    /* yazilari alttan ve ustten boslukli birakma*/padding:0.2rem 3rem; 
+    margin-bottom: 0.99rem;
+    margin-top: 0.25px;
+    border-radius: 7px; /*aralarinin acilmasini sagliyor*/
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    color: antiquewhite;
+    background-color: peru;
+    
+}
+.form-group{
+padding: 0.25rem 0;
+
+}
+
+
+.form-control{ /*bana ulas kismi*/
+    
+    padding: 0.5rem;
+    font-size: 1rem;
+    resize: none; /*sabit boyut yapiyot*/
+    border-radius: 5px; /*oval yapiyor*/
+}
+.form-group label{
+    display:block ; /*input asagi indi*/
+}
