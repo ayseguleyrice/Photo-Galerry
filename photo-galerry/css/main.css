@@ -95,7 +95,7 @@ html{
 .a{
     border-radius: 2px;
     background-color: purple;
-    /* yazilari alttan ve ustten boslukli birakma*/padding:0.2rem 3rem; 
+    /* yazilari alttan ve ustten bosluklu birakma*/padding:0.2rem 3rem; 
     margin-bottom: 0.99rem;
     margin-top: 5.25px;
     border-radius: 7px; /*aralarinin acilmasini sagliyor*/
